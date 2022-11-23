@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    /* border: 1px solid red; */
 }
 
 h1,
@@ -11,11 +13,23 @@ h2 {
     font-family: 'Bitter', serif;
 }
 
+button {
+    padding: 20px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    font-weight: 700;
+}
+
 section {
     max-width: 750px;
     margin: auto;
-    border: 1px dashed black;
-    padding: 20px;
+    border-top: 1px dashed black;
+    padding: 20px 10px;
+}
+
+.full-width {
+    max-width: none;
 }
 
 p {
@@ -54,6 +68,15 @@ p {
     color: rgb(33, 170, 186)
 }
 
+.yellow {
+    color: rgb(232, 220, 79);
+}
+
+
+.white {
+    color: white;
+}
+
 .bg-pink {
     background-color: rgb(231, 56, 111);
 }
@@ -62,7 +85,73 @@ p {
     background-color: rgb(33, 170, 186);
 }
 
-#colors div {
-    height: 100px;
+.bg-yellow {
+    background-color: rgb(232, 220, 79);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.noborder {
+    border: none;
+}
+
+
+.border-pink {
+    border-color: rgb(231, 56, 111);
+}
+
+.border-blue {
+    border-color: rgb(33, 170, 186);
+}
+
+.border-yellow {
+    border-color: rgb(232, 220, 79);
+}
+
+.shadow-pink {
+    shadow-c: rgb(231, 56, 111);
+}
+
+.shadow-blue {
+    shadow-c: rgb(33, 170, 186);
+}
+
+.color {
     width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#full-width {
+    background-image: url('./pattern.png');
+    text-align: center;
+}
+
+#full-width h2{
+    display: inline-block;
+    padding: 20px;
+}
+
+.one-third {
+    width: 33%;
+    margin: auto;
+    display: inline-block;
+}
+
+.button-1 {
+    box-shadow: 0 rgb(33, 170, 186);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition-duration: 200ms;
+    transition-property: bottom, left, box-shadow;
+}
+
+.button-1:hover {
+    bottom: 2px; 
+    left: 2px;
+    box-shadow: -5px 5px rgb(33, 170, 186);
 }
