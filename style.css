@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Bitter', serif;
+}
+
+section {
+    max-width: 750px;
+    margin: auto;
+    border: 1px dashed black;
+    padding: 20px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.bitter {
+    font-family: 'Bitter', serif;
+}
+
+.chivo {
+    font-family: 'Chivo', sans-serif;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.pink {
+    color: rgb(231, 56, 111);
+}
+
+.blue {
+    color: rgb(33, 170, 186)
+}
+
+.bg-pink {
+    background-color: rgb(231, 56, 111);
+}
+
+.bg-blue {
+    background-color: rgb(33, 170, 186);
+}
+
+#colors div {
+    height: 100px;
+    width: 100%;
+}
