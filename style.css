@@ -7,10 +7,21 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-align: center;
     margin: 50px 0;
     font-family: 'Bitter', serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto 25px;
 }
 
 button {
@@ -19,13 +30,31 @@ button {
     border-style: solid;
     border-width: 2px;
     font-weight: 700;
+    margin: 10px auto;
 }
 
 section {
     max-width: 750px;
-    margin: auto;
+    margin: 0 auto 50px;
     border-top: 1px dashed black;
-    padding: 20px 10px;
+    padding: 0 10px;
+}
+
+.headers {
+    margin-bottom: 50px;
+}
+
+.headers h1,
+.headers h2,
+.headers h3,
+.headers h4,
+.headers h5,
+.headers h6 {
+    margin: 0 auto 10px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    border: none;
 }
 
 .full-width {
@@ -33,7 +62,8 @@ section {
 }
 
 p {
-    margin: 20px 0;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .bitter {
@@ -110,13 +140,6 @@ p {
     border-color: rgb(232, 220, 79);
 }
 
-.shadow-pink {
-    shadow-c: rgb(231, 56, 111);
-}
-
-.shadow-blue {
-    shadow-c: rgb(33, 170, 186);
-}
 
 .color {
     width: 100%;
@@ -133,6 +156,10 @@ p {
 #full-width h2{
     display: inline-block;
     padding: 20px;
+}
+
+#buttons {
+    text-align: center;
 }
 
 .one-third {
@@ -154,4 +181,44 @@ p {
     bottom: 2px; 
     left: 2px;
     box-shadow: -5px 5px rgb(33, 170, 186);
+}
+
+.button-2 {
+    border-color: rgb(33, 170, 186);
+    background: transparent;
+    transition-duration: 200ms;
+    transition-property: background-color, color;
+}
+.button-2:hover {
+    background-color: rgb(33, 170, 186);
+    color: white;
+}
+
+.button-3 {
+    transition-duration: 200ms;
+    transition-property: background-color, border-color;
+}
+.button-3:hover {
+    background-color: rgb(33, 170, 186);
+    border-color: rgb(33, 170, 186);
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(232, 220, 79);
+    padding: 2px 5px;
+    color: black;
+    transition-duration: 200ms;
+}
+
+a:visited {
+    text-decoration: none;
+    background-color: rgb(33, 170, 186);
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(33, 170, 186);
+    color: white;
 }
