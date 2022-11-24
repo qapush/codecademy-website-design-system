@@ -11,7 +11,7 @@ h2,
 h3 {
     text-align: center;
     margin: 50px 0;
-    font-family: 'Bitter', serif;
+    font-family: 'Chivo', sans-serif;
 }
 
 h1 {
@@ -44,17 +44,13 @@ section {
     margin-bottom: 50px;
 }
 
-.headers h1,
-.headers h2,
-.headers h3,
-.headers h4,
-.headers h5,
-.headers h6 {
+.headers * {
     margin: 0 auto 10px;
     display: block;
     text-align: left;
     text-decoration: none;
     border: none;
+    font-family: 'Chivo', sans-serif;
 }
 
 .full-width {
@@ -153,7 +149,7 @@ p {
     text-align: center;
 }
 
-#full-width h2{
+#full-width h2 {
     display: inline-block;
     padding: 20px;
 }
@@ -178,7 +174,7 @@ p {
 }
 
 .button-1:hover {
-    bottom: 2px; 
+    bottom: 2px;
     left: 2px;
     box-shadow: -5px 5px rgb(33, 170, 186);
 }
@@ -189,6 +185,7 @@ p {
     transition-duration: 200ms;
     transition-property: background-color, color;
 }
+
 .button-2:hover {
     background-color: rgb(33, 170, 186);
     color: white;
@@ -198,23 +195,19 @@ p {
     transition-duration: 200ms;
     transition-property: background-color, border-color;
 }
+
 .button-3:hover {
     background-color: rgb(33, 170, 186);
     border-color: rgb(33, 170, 186);
 }
 
-a {
+a,
+a:visited {
     text-decoration: none;
     background-color: rgb(232, 220, 79);
     padding: 2px 5px;
     color: black;
     transition-duration: 200ms;
-}
-
-a:visited {
-    text-decoration: none;
-    background-color: rgb(33, 170, 186);
-    color: white;
 }
 
 a:hover {
